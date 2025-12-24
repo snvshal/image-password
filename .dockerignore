@@ -1,0 +1,62 @@
+# Version control
+.git
+.gitignore
+.gitattributes
+
+# CI/CD
+.github
+.gitlab-ci.yml
+.travis.yml
+
+# Dependencies (will be reinstalled in container)
+node_modules
+venv
+__pycache__
+*.pyc
+.pytest_cache
+
+# Documentation
+README.md
+CHANGELOG.md
+docs/
+*.md
+
+# Development files
+.vscode
+.idea
+*.swp
+*.swo
+*~
+
+# Environment files
+.env
+.env.local
+.env.*.local
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Test files
+tests/
+test/
+*.test.js
+*.spec.js
+coverage/
+
+# Build artifacts
+dist/
+build/
+target/
+*.egg-info
+
+# Docker files (avoid recursion)
+Dockerfile
+Dockerfile.*
+docker-compose*.yml
+.dockerignore

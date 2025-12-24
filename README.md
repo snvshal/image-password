@@ -36,7 +36,7 @@ image-password/
 
 ---
 
-## Quick start (local)
+## Quick Start (Local)
 
 ### Backend
 ```bash
@@ -50,6 +50,12 @@ cargo run
 cd frontend
 bun install
 bun dev
+```
+
+## Quick Start (Docker)
+
+```bash
+docker-compose up --build
 ```
 
 Frontend runs on `http://localhost:3000`
