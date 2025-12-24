@@ -20,8 +20,6 @@ export function ImageToPassword() {
     const file = e.target.files?.[0]
     if (!file) return
 
-    e.target.value = ""
-
     if (!file.type.startsWith("image/")) {
       setError("Please upload a valid image file")
       return
