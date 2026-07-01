@@ -39,7 +39,7 @@ export function ImageToPassword() {
       const formData = new FormData()
       formData.append("image", file)
 
-      const res = await fetch(process.env.NEXT_PUBLIC_API_URL!, {
+      const res = await fetch("/api/v1/generate", {
         method: "POST",
         body: formData,
       })
