@@ -14,6 +14,12 @@ export default function Home() {
             </div>
             <h1 className="text-xl font-bold text-foreground">ImagePass</h1>
           </div>
+          <Link href="/image-to-password">
+            <Button>
+              Get Started
+              <ArrowRightIcon className="size-4 ml-2" />
+            </Button>
+          </Link>
         </div>
       </header>
 
